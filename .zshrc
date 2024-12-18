@@ -1,3 +1,5 @@
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
 # Set the directory we want to store zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
@@ -58,5 +60,5 @@ alias ls='ls --color'
 alias c='clear'
 
 # Shell integrations
-eval "$(fzf --zsh)"
+eval <(fzf --zsh)
 eval "$(zoxide init --cmd cd zsh)"
