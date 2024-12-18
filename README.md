@@ -6,6 +6,7 @@ Este guia fornece instruções passo a passo para configurar um ambiente de dese
 
 1. [Pré-requisitos](#-pré-requisitos)
 2. [Configuração do Sistema](#-configuração-do-sistema)
+   - [(Opcional) Terminal Aprimorado](#-opcional-terminal-aprimorado)
 3. [Ambiente de Desenvolvimento](#-ambiente-de-desenvolvimento)
 4. [Configuração do Editor](#-configuração-do-editor)
 5. [Controle de Versão](#-controle-de-versão)
@@ -67,7 +68,7 @@ fi
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)" >> $SHELL_CONFIG
 ```
 
-## 🐚 Terminal Aprimorado (Opcional)
+## 🐚 (Opcional) Terminal Aprimorado
 
 ### ZSH e Oh My Posh
 
