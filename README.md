@@ -39,7 +39,7 @@ Se você já está usando Linux, pode pular para a próxima seção.
    - Abra "Terminal" no menu Iniciar
    - Configure o Ubuntu como perfil padrão:
      - Abra configurações (ctrl+,)
-     - Selecione Perfil padrão → Ubuntu
+     - Selecione Perfil padrão → Ubuntu (ícone laranja)
    - Configure seu usuário UNIX
 
 ### Ferramentas Essenciais
@@ -86,8 +86,9 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)" >> $SHELL_CONFIG
 
    - Baixe [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/JetBrainsMono.zip)
    - Instale as fontes com prefixo "JetBrainsMonoNerdFontMono"
+   - Extraia o arquivo
    - Configure o terminal:
-     - Configurações → Ubuntu → Aparência → JetBrainsMono Nerd Font Mono
+     - Configurações → Ubuntu (ícone laranja) → Aparência → JetBrainsMono Nerd Font Mono
 
 3. **Configuração do Ambiente**
 
@@ -145,7 +146,7 @@ uv python install 3.12.8
    - Pylance (ms-python.vscode-pylance)
    - Ruff (charliermarsh.ruff)
    - Python Environment Manager (donjayamanne.python-environment-manager)
-   - Mypy Type Checker (matangover.mypy)
+   - Mypy Type Checker (ms-python.mypy-type-checker)
 
    _Suporte WSL:_
 
@@ -153,13 +154,13 @@ uv python install 3.12.8
 
    _Controle de Versão:_
 
-   - Git Graph
-   - GitLens
+   - Git Graph (mhutchie.git-graph)
+   - GitLens (eamodio.gitlens)
 
    _Produtividade:_
 
-   - GitHub Copilot (se disponível)
-   - Error Lens
+   - GitHub Copilot (GitHub.copilot) (se disponível)
+   - Error Lens (usernamehw.errorlens)
 
 3. **Configurações Recomendadas**
 
