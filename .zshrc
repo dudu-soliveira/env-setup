@@ -60,5 +60,5 @@ alias ls='ls --color'
 alias c='clear'
 
 # Shell integrations
-eval <(fzf --zsh)
+source <(fzf --zsh)
 eval "$(zoxide init --cmd cd zsh)"
